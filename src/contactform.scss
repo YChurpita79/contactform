@@ -1,0 +1,98 @@
+.contact-form{
+  display: block;
+  position: relative;
+  z-index: 111;
+  h3{
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+  }
+
+  .form-group{
+    margin-bottom: 0;
+  }
+
+  button {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 40px;
+    width:120px;
+    background: none;
+    color:#00bac6;
+    border: solid 1px #00bac6;
+    font-weight: bold;
+    display: inherit;
+    text-align: center;
+  }
+
+  button:hover{
+    box-shadow: 0 0 10px #00bac6;
+  }
+
+}
+
+.with-errors{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color:red;
+}
+
+.my-contact-info-wrap{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+.my-contact-info-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+
+  li {
+    text-align: left;
+    color:#fff;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items:center;
+  }
+
+  li >a{
+    color:#fff;
+    text-decoration: none;
+  }
+
+  li img{
+    height: 20px;
+  }
+
+  li i,  li p{
+    font-size: 20px;
+    color:#fff;
+  }
+}
+
+
+@media(max-width: 990px) {
+  .my-contact-info-list {
+    display: block;
+    width: 100%;
+  }
+  .my-contact-info-list li {
+    font-size: 20px
+  }
+}
